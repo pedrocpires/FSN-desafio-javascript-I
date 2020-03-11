@@ -57,7 +57,7 @@
   */
   }
   
-  function aplicarNota(aluno:object){
+  function aplicarNota(aluno:object, ...nota:float){
   /*
    Ao receber um aluno devidamente cadastrado em nossa lista. Você deverá adicionar uma nota ao aluno na sua lista de notas. Você deverá dar um feedback ao concluir a tarefa. Só poderá aplicar nota em aluno se o mesmo tiver matriculado em um curso.
   */
